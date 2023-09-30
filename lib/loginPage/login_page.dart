@@ -7,24 +7,26 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+      backgroundColor: Colors.orange[300],
       body: SafeArea(
         child: Center(
           child: Column(
             children: [
               const SizedBox(height: 50),
+              
               const Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  // Kauswagan Icon
-                  IconTile(imagePath: ''),
+                  IconAsset(imagePath: 'lib/images/e-kauswagan-real.png')
                 ],
-              ),
+              ),  
               const SizedBox(height: 50),
               Text(
                 'BARANGAY KAUSWAGAN',
                 style: TextStyle(
-                  color: Colors.grey[700],
-                  fontSize: 16,
+                  color: Colors.black,
+                  fontSize: 25,
+                  fontWeight: FontWeight.bold,
                 ),
               ),
             ],
