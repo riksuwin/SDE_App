@@ -16,7 +16,7 @@ class LoginPage extends StatelessWidget {
               const Row(
                 children: [
                   // Kauswagan Icon
-                  IconTile(imagePath: 'lib/images'),
+                  IconTile(imagePath: ''),
                 ],
               ),
               const SizedBox(height: 50),
