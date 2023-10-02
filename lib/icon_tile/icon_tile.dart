@@ -9,14 +9,25 @@ class IconAsset extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CircleAvatar(
+    return Container(
+      width: 2 * 90, // Set the width and height to twice the radius to accommodate the border
+      height: 2 * 90,
+      decoration: BoxDecoration(
+        shape: BoxShape.circle,
+        border: Border.all(
+          color: Colors.white10, // Border color
+          width: 2, // Border width
+        ),
+    ),
+    child: CircleAvatar(
       // padding: EdgeInsets.all(10),
-      radius: 70,
+      radius: 90,
       backgroundColor: Colors.white,
       child: Image.asset(
         imagePath,
-        height: 125,
+        height: 153,
       ),
+    ),
     );
   }
 }
