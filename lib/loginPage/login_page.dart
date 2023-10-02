@@ -8,19 +8,19 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.orange[300],
-      body: SafeArea(
+      body: const SafeArea(
         child: Center(
           child: Column(
             children: [
-              const SizedBox(height: 50),
+              SizedBox(height: 50),
               
-              const Row(
+              Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   IconAsset(imagePath: 'lib/images/e-kauswagan-real.png')
                 ],
               ),  
-              const SizedBox(height: 50),
+              SizedBox(height: 50),
               Text(
                 'BARANGAY KAUSWAGAN',
                 style: TextStyle(
