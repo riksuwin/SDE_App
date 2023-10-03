@@ -1,7 +1,7 @@
-import 'package:final_app/login_page/LoginPage.dart';
-import 'package:final_app/scratch/scratch.dart';
+import 'package:final_app/loginPage/login_page.dart';
+import 'package:final_app/loginSignupPage/scratch.dart';
 import 'package:flutter/material.dart';
-import 'loginPage/login_page.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MyApp());
