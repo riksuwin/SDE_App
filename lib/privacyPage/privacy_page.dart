@@ -5,10 +5,22 @@ class PrivacyPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double width = MediaQuery.of(context).size.width;
     return Scaffold(
       body: Container(
         child: Stack(
-          children: [],
+          children: [
+            Positioned(
+              top: 70,
+              width: width,
+              child: Container(
+                margin: const EdgeInsets.only(),
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: Colors.redAccent),
+              ),
+            ),
+          ],
         ),
       ),
     );
