@@ -4,10 +4,13 @@ class PrivacyPage extends StatelessWidget {
   const PrivacyPage({super.key});
 
   @override
-
   Widget build(BuildContext context) {
     return Scaffold(
-
+      body: Container(
+        child: Stack(
+          children: [],
+        ),
+      ),
     );
   }
 }
