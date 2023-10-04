@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class LoginPage extends StatelessWidget {
+class LoginPageResident extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return Scaffold(
@@ -29,7 +29,7 @@ class LoginPage extends StatelessWidget {
                   fontFamily: 'Josefin_Bold'
                 ),),
                 SizedBox(height: 10,),
-                Text("as a personnel", 
+                Text("as a resident", 
                 style: TextStyle(
                   fontSize: 15,
                   color: Colors.grey[700],

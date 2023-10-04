@@ -1,4 +1,6 @@
 export 'background_image.dart';
 export 'logo.dart';
-export 'sign_up_button.dart';
-export 'login_button.dart';
+export 'buttons/button_signup.dart';
+export 'buttons/button_login.dart';
+export 'buttons/personnel_login.dart';
+export 'buttons/resident_login.dart';

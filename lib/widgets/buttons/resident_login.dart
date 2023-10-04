@@ -1,8 +1,8 @@
-import 'package:final_app/loginPage/login_page.dart';
+import 'package:final_app/loginPage/login_page_resident.dart';
 import 'package:flutter/material.dart';
 
-class Login extends StatelessWidget {
-  const Login({
+class ResidentLogin extends StatelessWidget {
+  const ResidentLogin({
     super.key,
   });
 
@@ -16,9 +16,9 @@ class Login extends StatelessWidget {
             minWidth: double.infinity,
             height: 60,
             onPressed: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage()));
+              Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPageResident()));
             },
-            color: Colors.white,
+            color: Colors.red.shade400,
             shape: RoundedRectangleBorder(
               side: const BorderSide(
                 color: Colors.black),
@@ -27,7 +27,7 @@ class Login extends StatelessWidget {
             
             child: const Center(
               child: Text(
-                "Login",
+                "Resident",
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 18,
