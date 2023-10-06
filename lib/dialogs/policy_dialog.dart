@@ -67,4 +67,6 @@ class PolicyDialog extends StatelessWidget {
       )
     );
   }
+
+  dynamic get newMethod => ;
 }
