@@ -1,7 +1,7 @@
 import 'package:final_app/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
-class PersonnelOrResident extends StatelessWidget {
+class SignupPersonnelOrResident extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return Stack(
@@ -28,7 +28,7 @@ class PersonnelOrResident extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
                   SizedBox(height: 150,),
-                  Text("Logging in as?",
+                  Text("Signing up as?",
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 28,

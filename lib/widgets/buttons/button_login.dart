@@ -1,4 +1,4 @@
-import 'package:final_app/loginPage/choice.dart';
+import 'package:final_app/loginPage/login_choice.dart';
 import 'package:flutter/material.dart';
 
 class Login extends StatelessWidget {
@@ -16,7 +16,7 @@ class Login extends StatelessWidget {
             minWidth: double.infinity,
             height: 60,
             onPressed: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context) => PersonnelOrResident()));
+              Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPersonnelOrResident()));
             },
             color: Colors.white,
             shape: RoundedRectangleBorder(

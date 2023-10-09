@@ -1,3 +1,4 @@
+import 'package:final_app/signupPage/signup_choice.dart';
 import 'package:flutter/material.dart';
 
 class SignUp extends StatelessWidget {
@@ -14,7 +15,9 @@ class SignUp extends StatelessWidget {
           MaterialButton(
             minWidth: double.infinity,
             height: 60,
-            onPressed: (){},
+            onPressed: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context) => SignupPersonnelOrResident()));
+            },
             color: Colors.yellow.shade600,
             shape: RoundedRectangleBorder(
               side: const BorderSide(
